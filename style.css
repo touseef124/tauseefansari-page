@@ -1,0 +1,183 @@
+
+@font-face{
+    font-family: OpenSans;
+    src: url(Fonts/OpenSans-Regular.ttf);
+    font-family: Playfair;
+    src: url(Fonts/PlayfairDisplay-VariableFont_wght.ttf);
+    font-family: Merriweather;
+    src: url(Fonts/Merriweather-Regular.ttf);
+    font-family: Ubuntu;
+    src: url(Fonts/Ubuntu-Regular.ttf);
+    
+}
+*{
+    font-family: Ubuntu;
+}
+body{
+    background-color: black;
+}
+.main{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 300px;
+    background-color: darkslategray;
+    border-radius: 15px;
+    border-radius: 20px;
+}
+.name,.image{
+    text-align: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 300px;
+    flex: 2.5;
+  }
+.contacts{
+    display: inline-flex;
+    flex-wrap: wrap;
+   text-align: center;
+    flex: 3;
+
+}
+.profile{
+    margin: 20px;
+}
+.iam{color: #f0f0f0;
+font-size: 30px;
+display: inline-flex;
+flex-wrap: wrap;
+margin-top: 55px;}
+.tauseef{color: mediumseagreen;
+font-size: 30px;
+display: inline-flex;
+flex-wrap: wrap;
+margin-top: 55px;}
+.text{color: #f0f0f0;
+    display: inline-flex;
+    flex-wrap: wrap;
+text-align: center;
+padding: 10px;
+    border: 2px solid mediumseagreen;
+    border-radius: 10px;;
+}
+.discription{
+    color: #f0f0f0;
+    margin: 30px;
+    padding: 10px;
+    border: 2px solid mediumseagreen;
+    border-radius: 10px;
+}
+.icon{
+    margin: 5px;
+}
+.projecttable{
+    padding: 20px;
+    width: 80%;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    }
+.webdevprojects{
+    color: royalblue;
+    }
+.project{
+border-collapse: collapse;
+padding: 10px 5px 10px 5px ;
+text-align: left;
+width: 89%;
+height: 200px;
+border-radius: 10px;
+}
+.items{
+color: white;
+background-color: darkslategrey;
+text-align: center;
+}
+    
+tr.even{
+        background-color: darkgrey;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:link{
+        color: black;
+    }
+    a:visited{
+        color: black;
+    }
+    .link:hover{
+        cursor: pointer;
+        color: white;
+        background-color: royalblue;
+    }
+    tr:hover{
+        background-color: royalblue;
+        color: white;
+        background-color: royalblue;
+    }
+    th{
+        border: 1px solid lightgrey;
+        padding: 10px;
+    }
+    .container{
+        width: 80%;
+        background-color: #f0f0f0;
+        border-radius: 20px;
+    }
+.commandlanguage{
+    display: inline-block;
+    width: 30%;
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+    }
+.html-logo{
+    margin-top: 20px;
+    }
+h3,h1{
+    display: block;
+    color: royalblue;
+    margin:10px;
+    padding: 10px;
+    text-shadow: 10px 10px 10px darkgray;
+}
+
+/* 
+<div class="projecttable">
+<h1 class="webdevprojects"> <q> Web-Dev-Projects</q></h1>
+
+
+<table class="project">
+    <tr class="items">
+        <th>Assignment</th>
+        <th>Content</th>
+        <th>Git-Hub Link</th>
+        <th>Firebase-Link</th>
+    </tr>
+    <tr>
+        <th>Assignment 01</th>
+        <th>Plotted PeriodicTable Organized</th>
+        <th><a class="link" target="__blank" href="https://touseef124.github.io/WebDev-Projects/periodic%20table.html">https://touseef124.github.io/WebDev-Projects/periodic%20table.html</a></th>
+        <th><a class="link" target="__blank" href="https://touseef-webdev-projects.web.app/periodic%20table.html">https://touseef-webdev-projects.web.app/periodic%20table.html</a></th>
+    </tr>
+    <tr bg-color="darkgrey">
+        <th>Assignment 02</th>
+        <th>Enrollment Submission Form</th>
+        <th><a class="link" target="__blank" href="https://touseef124.github.io/WebDev-Projects/AssignmentForm.html">https://touseef124.github.io/WebDev-Projects/AssignmentForm.html</a></th>
+        <th><a class="link" target="__blank" href="https://touseef-webdev-projects.web.app/AssignmentForm.html">https://touseef-webdev-projects.web.app/AssignmentForm.html</a></th>
+    </tr>
+    <tr>
+        <th>Assignment 03</th>
+        <th>Saylani Web-Page</th>
+        <th><a class="link" target="__blank" href="https://touseef124.github.io/WebDev-Projects/SaylaniHome.html">https://touseef124.github.io/WebDev-Projects/SaylaniHome.html</a></th>
+        <th><a class="link" target="__blank" href="https://touseef-webdev-projects.web.app/SaylaniHome.html">https://touseef-webdev-projects.web.app/SaylaniHome.html</a></th>
+    </tr>
+    <tr>
+        <th>Assignment 04</th>
+        <th>Ansari Textiles Web</th>
+        <th><a class="link" target="__blank" href="https://touseef124.github.io/ansaritextiles/">https://touseef124.github.io/ansaritextiles/</a></th>
+        <th><a  class="link" target="__blank"  href="https://ansaritextiles-168ee.web.app">https://ansaritextiles-168ee.web.app</a></th>
+    </tr>
+</table>
+
+</div> */
